@@ -1,0 +1,130 @@
+p {
+  font-family: roboto;
+}
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 110px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 7.5px;
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+
+.subscribe-button:active {
+  opacity: 0.4;
+}
+
+.join-button {
+  height: 36px;
+  width: 65px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(8, 84, 224);
+  color: rgb(8, 84, 224);
+  border-width: thin;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(8, 84, 224);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.6;
+}
+
+.tweet-button {
+  height: 34px;
+  width: 75px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(2, 158, 255);
+  margin-left: 7.5px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.tweet-button:hover {
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active {
+  opacity: 0.7;
+}
+
+.apply-company-button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(45, 102, 209);
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-left: 7.5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: padding 0.1s, opacity 0.1s;
+  vertical-align: top;
+}
+
+.apply-company-button:hover {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  opacity: 0.7;
+}
+
+.apply-company-button:active {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 28px;
+  padding-right: 28px;
+  opacity: 0.4;
+}
+
+.save-button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 22px;
+  padding-left: 22px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(45, 102, 209);
+  color: rgb(45, 102, 209);
+  border-width: 1.4px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 7.5px;
+  vertical-align: top;
+  transition: opacity 0.1s, padding 0.1s;
+}
+
+.save-button:hover {
+  opacity: 0.6;
+}
+
+.save-button:active {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+  padding-right: 17px;
+  opacity: 0.35;
+}

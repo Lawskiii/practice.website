@@ -1,0 +1,107 @@
+p{
+   margin: 0; 
+}
+
+.gmail-message{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    
+}
+
+.email-box{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+
+}
+
+.all-inboxes{
+    height: 15px;
+}
+
+.all-inboxes-text{
+
+    font-size: 10px;
+    font-family: Arial;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+}
+
+.email-description-box{
+    
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.email-profile{
+    width: 47px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.email-profile-images{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.email-description{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 15px;
+}
+
+.email-description-1{
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.desc-1{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.desc-2{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.desc-3{
+    font-family: Arial;
+    font-size: 12px;
+    color:  rgb(133, 133, 133);
+}
+
+
+
+.email-date{
+    font-family: Arial;
+    font-size: 12px;
+    color:  rgb(133, 133, 133);
+}
+
+.email-description-2{
+    flex: 1;
+    
+}
+
+.email-description-3{
+    flex: 1;
+}
+
+

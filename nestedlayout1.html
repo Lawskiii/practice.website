@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+
+    <style>
+        p{
+            font-family: Arial;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        
+        .profile-desc{
+            display: inline-block;
+        }
+        .profile-picture{
+            display: inline-block;
+            margin-right: 10px;
+
+        }
+
+        .profile-channel{
+            width: 250px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+
+        .profile-thumbnail{
+            width:100%;
+            object-fit: cover;
+            margin-bottom: 0px; 
+        }
+
+
+        .image-mutual{
+            width: 40px;
+            border-radius: 20px;
+            vertical-align: middle;
+            object-fit: cover;
+        }
+
+        .button-add{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 17px;
+            color: white;
+            background-color: rgb(24, 119, 242);
+            border: none;
+            border-radius: 5px;
+            margin-left: 6px;
+            margin-bottom: 6px;
+        }
+
+        .mutuals{
+            margin-top: 6px;
+            margin-bottom: 10px;
+            margin-left: 6px;
+
+        }
+
+        .mutual-friends{
+            font-size: 19px;
+            vertical-align: middle;
+            color: grey;
+            
+        }
+
+        .username-tag{
+            font-size: 20px;
+            margin-top: 6px;
+            margin-bottom: 0px;
+            font-weight: bold;
+            margin-left: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="profile-channel">
+        <div>
+            <img class="profile-thumbnail" src="imagess/cat1.png" alt="">
+        </div>
+        <div>
+            <div><p class="username-tag">Caca</p></div>
+            <div class="mutuals">
+                <div class="profile-picture"><img class="image-mutual" src="imagess/cat1.png" alt=""></div>
+                <div class="profile-desc"> <p class="mutual-friends">2 mutual friends</p></div>
+            </div>
+            
+            <div> <button class="button-add">Add Friend</button></div>
+        </div>
+    </div>
+    <div class="profile-channel">
+        <div>
+            <img class="profile-thumbnail" src="imagess/dog1.png" alt="">
+        </div>
+        <div desc-box>
+            <div><p class="username-tag">Lawa</p></div>
+            <div class="mutuals">
+                <div class="profile-picture"><img class="image-mutual" src="imagess/dog1.png" alt=""></div>
+                <div class="profile-desc"> <p class="mutual-friends">10 mutual friends</p></div>
+            </div>
+            
+            <div> <button class="button-add">Add Friend</button></div>
+        </div>
+    </div>
+    <div class="profile-channel">
+        <div>
+            <img class="profile-thumbnail" src="imagess/cat2.png" alt="">
+        </div>
+        <div desc-box>
+            <div><p class="username-tag">Nina</p></div>
+            <div class="mutuals">
+                <div class="profile-picture"><img class="image-mutual" src="imagess/cat2.png" alt=""></div>
+                <div class="profile-desc"> <p class="mutual-friends">15 mutual friends</p></div>
+            </div>
+            
+            <div> <button class="button-add">Add Friend</button></div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

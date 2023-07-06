@@ -1,0 +1,117 @@
+body{
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+p{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    margin: 0;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.product-container{
+    width: 200px;
+    
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.product-thumbnail{
+    position: relative;
+}
+
+.product-discount-display{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 222, 35);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.product-discount-display-text-1{
+    color: rgb(255, 84, 84);
+    font-size: 13px;
+    text-align: center;
+}
+
+.product-discount-display-text-2{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-description{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.product-description-price-text{
+    color: rgb(255, 109, 109);
+    font-weight:100;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.product-description-discount-text{
+    color: rgb(143, 143, 143);
+    font-weight:100;
+    font-size: 13px;
+    margin-bottom: 8px;
+    text-decoration: line-through;
+}
+
+.product-description-price-container{
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 65px;
+}
+
+.product-description-title{
+    margin-top: 4px;
+    
+    font-size: 12px;
+}
+
+.product-description-tag    {
+    margin-bottom: 8px;
+    font-size: 12px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    color:red;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.product-thumbnail-image{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.product-star-icon{
+    width: 14px;
+    flex: 1fr;
+}
+
+.product-star-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-right: 100px;
+    align-items: center;
+    margin-bottom: 8px;
+}
